@@ -10,7 +10,8 @@
     "jQuery",
     "xml",
     "json",
-    "xml2json"
+    "xml2json",
+    "jquery-plugin"
   ],
   "license": "MIT",
   "ignore": [
