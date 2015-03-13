@@ -11,20 +11,11 @@ Via bower:
 Example
 -------
 ```Javascript
-$.soap({
-    url: 'http://my.server.com/soapservices/',
-    method: 'helloWorld',
-
-    data: {
-        name: 'Remy Blom',
-        msg: 'Hi!'
-    },
-
-    success: function (soapResponse) {
-        soapResponse.toJSON();
-    },
-    error: function (SOAPResponse) {
-        SOAPResponse.toJSON();
+$.ajax({
+    url: 'data/test.xml',
+    dataType: 'xml',
+    success: function(response) {
+        json = $.xml2json(response);
     }
 });
 ```
