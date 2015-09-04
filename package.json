@@ -2,9 +2,7 @@
   "name": "jquery.xml2json",
   "version": "1.3.0",
   "main": "src/jquery.xml2json.js",
-  "authors": [
-    "XTREEM <not@yours.com>"
-  ],
+  "author": "XTREEM <not@yours.com>",
   "description": "The XML to JSON Plugin (jQuery.xml2json) is a script you can use to convert simple XML into a JSON object.",
   "keywords": [
     "jQuery",
@@ -14,13 +12,10 @@
     "jquery-plugin"
   ],
   "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/xtreemrage/jquery.xml2json.git"
+  },
   "dependencies": {
     "jquery": ">=1.9"
   }
