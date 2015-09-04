@@ -17,6 +17,6 @@
     "url": "http://github.com/xtreemrage/jquery.xml2json.git"
   },
   "dependencies": {
-    "jquery": "1.11"
+    "jquery": ">=1.9"
   }
 }
